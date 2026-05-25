@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viva Bem - Educação Física & Saúde</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Vida<span>Ativa</span></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#pilares">Pilares</a></li>
+                <li><a href="#calculadora">Simulador</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Movimente seu Corpo, <br>Transforme sua Vida</h1>
+            <p>A Educação Física vai além do esporte: é saúde, mente sã e longevidade. Descubra o poder do movimento.</p>
+            <a href="#pilares" class="btn">Saiba Mais</a>
+        </div>
+    </section>
+
+    <section id="pilares" class="cards-section">
+        <h2>Os Pilares do Movimento</h2>
+        <div class="cards-container">
+            <div class="card">
+                <h3>Saúde Cardiovascular</h3>
+                <p>Exercícios aeróbicos como corrida e natação fortalecem o coração, melhoram a circulação e aumentam a resistência física.</p>
+            </div>
+            <div class="card">
+                <h3>Força & Flexibilidade</h3>
+                <p>O treino de força protege as articulações, enquanto o alongamento previne lesões e melhora a postura diária.</p>
+            </div>
+            <div class="card">
+                <h3>Saúde Mental</h3>
+                <p>Praticar atividades físicas libera endorfina e dopamina, reduzindo drasticamente o estresse, a ansiedade e o cansaço mental.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="calculadora" class="interactive-section">
+        <div class="calc-box">
+            <h2>Calculadora de Gasto Calórico Estimado</h2>
+            <p>Escolha uma atividade e veja a média de calorias queimadas em 30 minutos:</p>
+            
+            <select id="atividade">
+                <option value="250">Corrida Moderada (250 kcal)</option>
+                <option value="200">Natação (200 kcal)</option>
+                <option value="150">Ciclismo (150 kcal)</option>
+                <option value="120">Musculação (120 kcal)</option>
+                <option value="90">Caminhada (90 kcal)</option>
+            </select>
+
+            <button id="btn-calcular">Calcular Total</button>
+            <div id="resultado">Selecione uma atividade para calcular!</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 VidaAtiva - Educação Física para Todos.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
